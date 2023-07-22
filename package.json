@@ -7,13 +7,19 @@
   "scripts": {
     "blog::dev": "vuepress dev blog",
     "blog::build": "vuepress build blog",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "blog::test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "vuepress-theme"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.66"
+    "@vuepress/client": "2.0.0-beta.66",
+    "@vuepress/core": "2.0.0-beta.66",
+    "@vuepress/theme-default": "2.0.0-beta.66",
+    "@vuepress/utils": "2.0.0-beta.66",
+    "typescript": "^5.1.6"
   },
   "peerDependencies": {
     "vue": "^3.3.4",
