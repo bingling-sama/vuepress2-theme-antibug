@@ -1,16 +1,16 @@
+<script setup lang="ts"></script>
+
 <template>
-  <div>
-    <Content />
-  </div>
+  <div>404 Not Found</div>
 </template>
 
 <!-- <script lang="ts">
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'AntibugLayout.vue'
+  name: 'AntibugNotFound'
 });
-</script>
+</script> -->
 
-<style scoped>
+<!-- <style lang="stylus" scoped>
 </style> -->

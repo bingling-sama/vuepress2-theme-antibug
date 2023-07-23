@@ -1,0 +1,23 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "packageManager": "pnpm@8.6.9",
+  "scripts": {
+    "blog::dev": "vuepress-cli dev . --clean-cache --clean-temp",
+    "blog::build": "vuepress-cli build . --clean-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vuepress-theme-antibug/theme": "workspace:*",
+    "@vuepress/bundler-vite": "2.0.0-beta.66",
+    "@vuepress/cli": "2.0.0-beta.66",
+    "@vuepress/client": "2.0.0-beta.66",
+    "@vuepress/theme-default": "2.0.0-beta.66",
+    "@vuepress/utils": "2.0.0-beta.66"
+  }
+}
