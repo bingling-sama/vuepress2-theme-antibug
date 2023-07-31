@@ -1,4 +1,4 @@
-import type {App, Theme}from "@vuepress/core"
+import type { App, Theme } from "@vuepress/core"
 import { path, getDirname } from '@vuepress/utils';
 
 const __dirname = getDirname(import.meta.url)

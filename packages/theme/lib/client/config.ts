@@ -1,11 +1,11 @@
 import { defineClientConfig } from '@vuepress/client';
 
-import AntibugLayout from "./layouts/AntibugLayout.vue"
-import AntibugNotFound from "./layouts/AntibugNotFound.vue"
+import Layout from "./layouts/Layout.vue"
+import NotFound from "./layouts/NotFound.vue"
 
 export default defineClientConfig({
   layouts: {
-    AntibugLayout,
-    AntibugNotFound
+    layout: Layout,
+    notfound: NotFound
   }
 })
