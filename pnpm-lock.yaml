@@ -32,6 +32,9 @@ importers:
       '@vuepress/utils':
         specifier: 2.0.0-beta.66
         version: registry.npmjs.org/@vuepress/utils@2.0.0-beta.66
+      vue:
+        specifier: ^3.3.4
+        version: registry.npmjs.org/vue@3.3.4
 
   packages/theme:
     dependencies:
